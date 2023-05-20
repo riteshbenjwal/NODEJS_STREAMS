@@ -1,0 +1,17 @@
+{
+  "name": "01-ecommerce-app-observer-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "set \"NODE_OPTIONS=--experimental-vm-modules\" && npx jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
